@@ -1,0 +1,57 @@
+Greater than 
+Q1. Give me all properties having price more than 4000
+Q2. Give me all properties having securtiy deposit more than 50000
+Q3. Give me all properties having rating more than 4
+Q4. 
+Q5.
+
+Greater than equal
+Q1. Give me all properties having price more than or equal to 4000
+Q2. Give me all properties having securtiy deposit more than or equal to 50000
+Q3. Give me all properties having rating more than or equal to 4
+Q4. 
+Q5.
+
+Less Than
+Q1. Give me all properties having price less than to 4000
+Q2. Give me all properties having securtiy deposit less than to 50000
+Q3. Give me all properties having rating less to 4
+Q4. 
+Q5.
+
+Less Than of equal to
+Q1. Give me all properties having price less than or equal to 4000
+Q2. Give me all properties having securtiy deposit less than or equal to 50000
+Q3. Give me all properties having rating less than or equal to 4
+Q4. 
+Q5.
+
+Equal to 
+Q1. Give me all properties having price  equal to 4000
+Q2. Give me all properties having securtiy deposit equal to 50000
+Q3. Give me all properties having rating equal to 4
+Q4. Give me info about the user email as abc@gmail.com
+Q5. Give me all payment details of useremail as pqr@gmail.com
+
+Not Equal to
+Q1. Give me all properties having price  not equal to 4000
+Q2. Give me all properties having securtiy deposit not equal to 50000
+Q3. Give me all properties having rating not equal to 4
+Q4. 
+Q5. 
+
+In
+Q1. Give me all properties having price as 4000, 2000, 3000
+Q2. Give me all properties having securtiy deposit as 50000, 55000, 60000
+Q3. Give me all properties having rating as 5, 4, 4.5,
+Q4. 
+Q5.
+
+Not In
+Q1. Give me all properties having price not in 4000, 2000, 3000
+Q2. Give me all properties having securtiy deposit not in 50000, 55000, 60000
+Q3. Give me all properties having rating not in 5, 4, 4.5,
+Q4. 
+Q5.
+
+
