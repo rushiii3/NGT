@@ -12,6 +12,21 @@
   "user_state": "Maharashtra",
   "user_pincode": "400047"
 },
+db.userInfo.insertOne(
+    {
+  "user_email": "abc@example.com",
+  "user_firstname": "abc",
+  "user_middlename": "efg",
+  "user_lastname": "hij",
+  "user_phone": "1234567890",
+  "user_password": "729egfuijb#7*2",
+  "user_role": "T",
+  "user_streetname": "Abc street way Hall",
+  "user_city": "Mumbai",
+  "user_state": "Maharashtra",
+  "user_pincode": "400047"
+}
+);
 //messaging
 {
   "message": "hey broo",
@@ -20,12 +35,28 @@
   "sender_id": "507f1f77bcf86cd799439011",
   "receiver_id": "507f1f77bcf86cd799439012"
 },
+db.messaging.insertOne(
+  {
+  "message": "hey broo",
+  "message_date": "2022-10-01",
+  "message_time": "10:30:00",
+  "sender_id": "507f1f77bcf86cd799439011",
+  "receiver_id": "507f1f77bcf86cd799439012"
+}
+  )
 //community
 {
   "message": "hello everyone",
   "message_date": "2022-10-01",
   "user_id": "507f1f77bcf86cd799439011"
 }
+db.community.insertOne(
+  {
+  "message": "hello everyone",
+  "message_date": "2022-10-01",
+  "user_id": "507f1f77bcf86cd799439011"
+}
+  )
 //property
 {
   "building_name": "ABC Apartments",
@@ -66,6 +97,43 @@ The ATM & bus station are close by, you will find having money in hand & access 
     "Any"
   ]
 }
+
+  db.property.insertOne(
+  {
+  "building_name": "ABC Apartments",
+  "building_number": "123",
+  "property_streetname": "Main Street",
+  "property_city": "Mumbai",
+  "property_state": "Maharashtra",
+  "property_type": "Apartment",
+  "property_bhk_type": "2 BHK",
+  "property_furnishing": "Yes",
+  "property_parking": "Yes",
+  "property_description": "This spacious 2bhk for rent in Matunga West is luxurious and comfortable. The property is fully furnished and it's perfect for families & bachelors. This North facing home is on the 21th floor & is over 950 sqft. You get ample & dedicated space for car and bike parking with this home. As this home comes with air conditioner, fire safety, gas pipeline, rainwater harvesting, visitor parking & waste treatment plant & more such amenities, living here would make life more pleasant. With club house, play area & gym available in this home, you will always have something to do here. With amenities such as intercom, security & elevator this home offers you a lot of convenience. With N.M.Joshi Marg Municipal Secondary School, Tree House Play Group and Tree House Play Group close to this home, you'll be able to provide your children with many options to choose from. If you are in need of any emergency services or medical assistance, you will be happy to note that Dr. Niphadkar's Asthma Allergy Clinic, Lokmanya Tilak Municipal General Hospital and Nowrosjee Wadia Maternity Hospital are very close by. If you are a frequent traveller, then you'll be happy to note that train station is less than 10 minutes from this house. Never miss out on lifestyle as Poonam Stationers, Electro and R.M Shopping Centre are so close by. As Deepak Talkies, Chitra Cinema & Ashford Chamber are in close proximity to this house, you can catch the latest movies at any time. The ATM & bus station are close by, you will find having money in hand & access to public transport very easy. With a petrol pump & super market your daily needs are easily fulfilled",
+  "property_rent_price": 5000,
+  "property_availability": "Yes",
+  "property_security_deposit": 20000,
+  "property_coordinates": {
+        "latitude" : "12.3456789",
+        "longitude" : "98.7654321",
+  },
+  "landlord_id": "landlord@example.com",
+  "images": [
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg"
+  ],
+  "videos": [
+    "video1.mp4",
+    "video2.mp4"
+  ],
+  "preferred_tenants": [
+    "Family",
+    "Working professionals",
+    "Any"
+  ]
+}
+  )
 //maintenance request
 {
   "emergency": "No",
@@ -75,6 +143,17 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "user@example.com",
   "property_id": 507f1f77bcf86cd7994390145
 }
+  db.maintenace_req.insertOne(
+  {
+  "emergency": "No",
+  "request_description": "Leaky faucet in the bathroom",
+  "date_of_request": "2022-10-15",
+  "request_status": "Pending",
+  "user_id": "user@example.com",
+  "property_id": "f1f77bcf86cd7994390145"
+}
+  )
+  
 //rating and review
 {
   "review": "Great experience! The property was clean and well-maintained.",
@@ -82,6 +161,14 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "abc@gmail.com",
   "property_id": 507f1f77bcf86cd7994390145
 }
+  db.rating.insertOne(
+  {
+  "review": "Great experience! The property was clean and well-maintained.",
+  "rating": 4,
+  "user_id": "abc@gmail.com",
+  "property_id": "507f1f77bcf86cd7994390145"
+}
+  )
 //video converence
 {
   "vc_date": "2022-10-15",
@@ -91,6 +178,17 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "abc@gmail.com",
   "property_id": 1507f1f77bcf86cd7994390145
 }
+
+  db.vc.insertOne(
+  {
+  "vc_date": "2022-10-15",
+  "vc_time": "10:00:00",
+  "vc_link": "https://example.com/videoconference",
+  "vc_status": "Scheduled",
+  "user_id": "abc@gmail.com",
+  "property_id": "1507f1f77bcf86cd7994390145"
+}
+  )
 //physical visit
 {
   "pv_date": "2022-10-15",
@@ -99,6 +197,15 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "abc@gmail.com",
   "property_id": 1507f1f77bcf86cd7994390145
 }
+  db.pv.insertOne(
+  {
+  "pv_date": "2022-10-15",
+  "pv_time": "14:00:00",
+  "pv_status": "Scheduled",
+  "user_id": "abc@gmail.com",
+  "property_id": "1507f1f77bcf86cd7994390145"
+}
+  )
 //monthly rent payement
 {
   "mrp_date": "2022-10-01",
@@ -119,6 +226,18 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "abc@gmail.com",
   "property_id": 11507f1f77bcf86cd7994390145
 }
+  db.lease_agreement.insertOne(
+  {
+  "lease_start_date": "2022-10-01",
+  "lease_end_date": "2023-09-30",
+  "rent_amount": "1000",
+  "security_deposit": "2000",
+  "aadhar_number": "123456789012",
+  "agreement_doc": "https://example.com/lease_agreement.pdf",
+  "user_id": "abc@gmail.com",
+  "property_id": "11507f1f77bcf86cd7994390145"
+}
+  )
 //Admin
 {
   "admin_email": "admin@gmail.com",
@@ -128,6 +247,17 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "admin_middlename": "Abhijit",
   "admin_lastname": "Khan"
 }
+  db.admin.insertOne(
+  {
+  "admin_email": "admin@gmail.com",
+  "admin_password": "password123",
+  "admin_phone": "1234567890",
+  "admin_firstname": "Rahul",
+  "admin_middlename": "Abhijit",
+  "admin_lastname": "Khan"
+}
+  )
+  
 //report & issues
 {
   "report_id": "12345",
@@ -137,3 +267,14 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "user_id": "abc@gmail.com",
   "admin_email": "admin@gmail.com"
 }
+
+  db.report.insertOne(
+  {
+  "report_id": "12345",
+  "report_description": "I am having issue about not making a rent a house",
+  "report_date": "2022-10-01",
+  "report_status": "Pending",
+  "user_id": "abc@gmail.com",
+  "admin_email": "admin@gmail.com"
+}
+  )
