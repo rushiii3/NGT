@@ -14,7 +14,6 @@
 },
 //messaging
 {
-  "message_id": 1,
   "message": "hey broo",
   "message_date": "2022-10-01",
   "message_time": "10:30:00",
@@ -23,14 +22,12 @@
 },
 //community
 {
-  "id": 1,
   "message": "hello everyone",
   "message_date": "2022-10-01",
   "user_id": "507f1f77bcf86cd799439011"
 }
 //property
 {
-  "property_id": 1,
   "building_name": "ABC Apartments",
   "building_number": "123",
   "property_streetname": "Main Street",
@@ -40,10 +37,15 @@
   "property_bhk_type": "2 BHK",
   "property_furnishing": "Yes",
   "property_parking": "Yes",
-  "property_description": "Spacious apartment with modern amenities.",
+  "property_description": "This spacious 2bhk for rent in Matunga West is luxurious and comfortable. The property is fully furnished and it's perfect for families & bachelors. This North facing home is on the 21th floor & is over 950 sqft. You get ample & dedicated space for car and bike parking with this home.
+As this home comes with air conditioner, fire safety, gas pipeline, rainwater harvesting, visitor parking & waste treatment plant & more such amenities, living here would make life more pleasant. With club house, play area & gym available in this home, you will always have something to do here. With amenities such as intercom, security & elevator this home offers you a lot of convenience.
+With N.M.Joshi Marg Municipal Secondary School, Tree House Play Group and Tree House Play Group close to this home, you'll be able to provide your children with many options to choose from. If you are in need of any emergency services or medical assistance, you will be happy to note that Dr. Niphadkar's Asthma Allergy Clinic, Lokmanya Tilak Municipal General Hospital and Nowrosjee Wadia Maternity Hospital are very close by.
+If you are a frequent traveller, then you'll be happy to note that train station is less than 10 minutes from this house.
+Never miss out on lifestyle as Poonam Stationers, Electro and R.M Shopping Centre are so close by. As Deepak Talkies, Chitra Cinema & Ashford Chamber are in close proximity to this house, you can catch the latest movies at any time.
+The ATM & bus station are close by, you will find having money in hand & access to public transport very easy. With a petrol pump & super market your daily needs are easily fulfilled",
   "property_rent_price": "5000",
   "property_availability": "Yes",
-  "property_security_deposit": "10000",
+  "property_security_deposit": "20000",
   "property_coordinates": {
         "latitude" : "12.3456789",
         "longitude" : "98.7654321",
@@ -66,20 +68,19 @@
 }
 //maintenance request
 {
-  "request_id": 1,
   "emergency": "No",
   "request_description": "Leaky faucet in the bathroom",
   "date_of_request": "2022-10-15",
   "request_status": "Pending",
   "user_id": "user@example.com",
-  "property_id": 1
+  "property_id": 507f1f77bcf86cd7994390145
 }
 //rating and review
 {
   "review": "Great experience! The property was clean and well-maintained.",
   "rating": 4,
-  "user_id": "user@example.com",
-  "property_id": 1
+  "user_id": "abc@gmail.com",
+  "property_id": 507f1f77bcf86cd7994390145
 }
 //video converence
 {
@@ -87,16 +88,16 @@
   "vc_time": "10:00:00",
   "vc_link": "https://example.com/videoconference",
   "vc_status": "Scheduled",
-  "user_id": "user@example.com",
-  "property_id": 1
+  "user_id": "abc@gmail.com",
+  "property_id": 1507f1f77bcf86cd7994390145
 }
 //physical visit
 {
   "pv_date": "2022-10-15",
   "pv_time": "14:00:00",
   "pv_status": "Scheduled",
-  "user_id": "user@example.com",
-  "property_id": 1
+  "user_id": "abc@gmail.com",
+  "property_id": 1507f1f77bcf86cd7994390145
 }
 //monthly rent payement
 {
@@ -104,36 +105,35 @@
   "mrp_amount": "1000",
   "mrp_status": "Paid",
   "mrp_method": "Credit Card",
-  "user_id": "user@example.com",
-  "property_id": 1
+  "user_id": "abc@gmail.com",
+  "property_id": 1507f1f77bcf86cd7994390145
 }
 //lease agreement
 {
-  "lease_id": 1,
   "lease_start_date": "2022-10-01",
   "lease_end_date": "2023-09-30",
   "rent_amount": "1000",
   "security_deposit": "2000",
   "aadhar_number": "123456789012",
   "agreement_doc": "https://example.com/lease_agreement.pdf",
-  "user_id": "user@example.com",
-  "property_id": 1
+  "user_id": "abc@gmail.com",
+  "property_id": 11507f1f77bcf86cd7994390145
 }
 //Admin
 {
-  "admin_email": "admin@example.com",
+  "admin_email": "admin@gmail.com",
   "admin_password": "password123",
   "admin_phone": "1234567890",
-  "admin_firstname": "John",
-  "admin_middlename": "Doe",
-  "admin_lastname": "Smith"
+  "admin_firstname": "Rahul",
+  "admin_middlename": "Abhijit",
+  "admin_lastname": "Khan"
 }
 //report & issues
 {
   "report_id": "12345",
-  "report_description": "Issue description",
+  "report_description": "I am having issue about not making a rent a house",
   "report_date": "2022-10-01",
-  "report_status": "Open",
-  "user_id": "user@example.com",
-  "admin_email": "admin@example.com"
+  "report_status": "Pending",
+  "user_id": "abc@gmail.com",
+  "admin_email": "admin@gmail.com"
 }
