@@ -1,32 +1,32 @@
 //user
 {
-  "user_email": "email@example.com",
-  "user_firstname": "John",
-  "user_middlename": "Doe",
-  "user_lastname": "Smith",
+  "user_email": "abc@example.com",
+  "user_firstname": "abc",
+  "user_middlename": "efg",
+  "user_lastname": "hij",
   "user_phone": "1234567890",
-  "user_password": "hashed_password",
+  "user_password": "729egfuijb#7*2",
   "user_role": "T",
-  "user_streetname": "123 Main St",
-  "user_city": "City",
-  "user_state": "State",
-  "user_pincode": "123456"
+  "user_streetname": "Abc street way Hall",
+  "user_city": "Mumbai",
+  "user_state": "Maharashtra",
+  "user_pincode": "400047"
 },
 //messaging
 {
   "message_id": 1,
-  "message": "This is the message content.",
+  "message": "hey broo",
   "message_date": "2022-10-01",
   "message_time": "10:30:00",
-  "sender_id": "sender@example.com",
-  "receiver_id": "receiver@example.com"
+  "sender_id": "507f1f77bcf86cd799439011",
+  "receiver_id": "507f1f77bcf86cd799439012"
 },
 //community
 {
   "id": 1,
-  "message": "This is the community message content.",
+  "message": "hello everyone",
   "message_date": "2022-10-01",
-  "user_id": "user@example.com"
+  "user_id": ""507f1f77bcf86cd799439011""
 }
 //property
 {
