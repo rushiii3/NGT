@@ -1,0 +1,138 @@
+//user
+{
+  "user_email": "email@example.com",
+  "user_firstname": "John",
+  "user_middlename": "Doe",
+  "user_lastname": "Smith",
+  "user_phone": "1234567890",
+  "user_password": "hashed_password",
+  "user_role": "T",
+  "user_streetname": "123 Main St",
+  "user_city": "City",
+  "user_state": "State",
+  "user_pincode": "123456"
+},
+//messaging
+{
+  "message_id": 1,
+  "message": "This is the message content.",
+  "message_date": "2022-10-01",
+  "message_time": "10:30:00",
+  "sender_id": "sender@example.com",
+  "receiver_id": "receiver@example.com"
+},
+//community
+{
+  "id": 1,
+  "message": "This is the community message content.",
+  "message_date": "2022-10-01",
+  "user_id": "user@example.com"
+}
+//property
+{
+  "property_id": 1,
+  "building_name": "ABC Apartments",
+  "building_number": "123",
+  "property_streetname": "Main Street",
+  "property_city": "City",
+  "property_state": "State",
+  "property_type": "Apartment",
+  "property_bhk_type": "2 BHK",
+  "property_furnishing": "Yes",
+  "property_parking": "Yes",
+  "property_description": "Spacious apartment with modern amenities.",
+  "property_rent_price": "5000",
+  "property_availability": "Yes",
+  "property_security_deposit": "10000",
+  "property_coordinates": {
+        "latitude" : "12.3456789",
+        "longitude" : "98.7654321",
+  },
+  "landlord_id": "landlord@example.com",
+  "images": [
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg"
+  ],
+  "videos": [
+    "video1.mp4",
+    "video2.mp4"
+  ],
+  "preferred_tenants": [
+    "Family",
+    "Working professionals"
+  ]
+}
+//maintenance request
+{
+  "request_id": 1,
+  "emergency": "No",
+  "request_description": "Leaky faucet in the bathroom",
+  "date_of_request": "2022-10-15",
+  "request_status": "Pending",
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//rating and review
+{
+  "review": "Great experience! The property was clean and well-maintained.",
+  "rating": 4,
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//video converence
+{
+  "vc_date": "2022-10-15",
+  "vc_time": "10:00:00",
+  "vc_link": "https://example.com/videoconference",
+  "vc_status": "Scheduled",
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//physical visit
+{
+  "pv_date": "2022-10-15",
+  "pv_time": "14:00:00",
+  "pv_status": "Scheduled",
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//monthly rent payement
+{
+  "mrp_date": "2022-10-01",
+  "mrp_amount": "1000",
+  "mrp_status": "Paid",
+  "mrp_method": "Credit Card",
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//lease agreement
+{
+  "lease_id": 1,
+  "lease_start_date": "2022-10-01",
+  "lease_end_date": "2023-09-30",
+  "rent_amount": "1000",
+  "security_deposit": "2000",
+  "aadhar_number": "123456789012",
+  "agreement_doc": "https://example.com/lease_agreement.pdf",
+  "user_id": "user@example.com",
+  "property_id": 1
+}
+//Admin
+{
+  "admin_email": "admin@example.com",
+  "admin_password": "password123",
+  "admin_phone": "1234567890",
+  "admin_firstname": "John",
+  "admin_middlename": "Doe",
+  "admin_lastname": "Smith"
+}
+//report & issues
+{
+  "report_id": "12345",
+  "report_description": "Issue description",
+  "report_date": "2022-10-01",
+  "report_status": "Open",
+  "user_id": "user@example.com",
+  "admin_email": "admin@example.com"
+}
