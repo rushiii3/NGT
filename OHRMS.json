@@ -26,7 +26,7 @@
   "id": 1,
   "message": "hello everyone",
   "message_date": "2022-10-01",
-  "user_id": ""507f1f77bcf86cd799439011""
+  "user_id": "507f1f77bcf86cd799439011"
 }
 //property
 {
@@ -34,8 +34,8 @@
   "building_name": "ABC Apartments",
   "building_number": "123",
   "property_streetname": "Main Street",
-  "property_city": "City",
-  "property_state": "State",
+  "property_city": "Mumbai",
+  "property_state": "Maharashtra",
   "property_type": "Apartment",
   "property_bhk_type": "2 BHK",
   "property_furnishing": "Yes",
@@ -60,7 +60,8 @@
   ],
   "preferred_tenants": [
     "Family",
-    "Working professionals"
+    "Working professionals",
+    "Any"
   ]
 }
 //maintenance request
