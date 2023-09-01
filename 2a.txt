@@ -1,0 +1,54 @@
+ show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+
+
+ use rushiDB
+switched to db rushiDB
+
+//inserted
+db.userInfo.insertOne(
+...     {
+...   "user_email": "abc@gmail.com",
+...   "user_firstname": "abc",
+...   "user_middlename": "efg",
+...   "user_lastname": "hij",
+...   "user_phone": 1234567890,
+...   "user_password": "729egfuijb#7*2",
+...   "user_role": "T",
+...   "user_streetname": "Abc street way Hall",
+...   "user_city": "Mumbai",
+...   "user_state": "Maharashtra",
+...   "user_pincode": "400047"
+... }
+... )
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("64f15a73c477b4ffdd04fe35")
+}
+ show dbs
+admin    0.000GB
+config   0.000GB
+local    0.000GB
+rushiDB  0.000GB
+test     0.000GB
+> use rushiDB
+switched to db rushiDB
+> db.dropDatabase()
+{ "dropped" : "rushiDB", "ok" : 1 }
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+
+
+
+
+
+
+
+
+
