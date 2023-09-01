@@ -1,0 +1,84 @@
+
+ use rushiDB1
+switched to db rushiDB1
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+> db.userInfo.insertMany([
+... ...  {
+... ...   "user_email": "rahulkhan@gmail.com",
+... ...   "user_firstname": "Rahul",
+... ...   "user_middlename": "Arfaz",
+... ...   "user_lastname": "Khan",
+... ...   "user_phone": 4673892019,
+... ...   "user_password": "diufgiuE^5fk",
+... ...   "user_role": "T",
+... ...   "user_streetname": "Bhootiya Bhangla Haweli",
+... ...   "user_city": "Thane",
+... ...   "user_state": "Maharashtra",
+... ...   "user_pincode": "400132"
+... ... },
+... ...  {
+... ...   "user_email": "pratikumb@gmail.com",
+... ...   "user_firstname": "Pratik",
+... ...   "user_middlename": "Pravin",
+... ...   "user_lastname": "Kumbhar",
+... ...   "user_phone": 3640834086,
+... ...   "user_password": "ufsdhdg489#%#&",
+... ...   "user_role": "L",
+... ...   "user_streetname": "Lenovo Khan Street",
+... ...   "user_city": "Navi Mumbai",
+... ...   "user_state": "Maharashtra",
+... ...   "user_pincode": "420132"
+... ... },
+... ...  {
+... ...   "user_email": "rushishinde@gmail.com",
+... ...   "user_firstname": "Rushi",
+... ...   "user_middlename": "Sanjay",
+... ...   "user_lastname": "Shinde",
+... ...   "user_phone": 9903738927,
+... ...   "user_password": "diufgiuE^5fk43@",
+... ...   "user_role": "L",
+... ...   "user_streetname": "Dadar Haveli",
+... ...   "user_city": "Mumbai",
+... ...   "user_state": "Maharashtra",
+... ...   "user_pincode": "400001"
+... ... }
+... ... ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("64f16123be6bcd9a4e320a87"),
+                ObjectId("64f16123be6bcd9a4e320a88"),
+                ObjectId("64f16123be6bcd9a4e320a89")
+        ]
+}
+
+
+
+> show dbs
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+rushiDB1  0.000GB
+test      0.000GB
+> use rushiDB1
+switched to db rushiDB1
+> show collections
+userInfo
+
+show dbs
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+rushiDB1  0.000GB
+test      0.000GB
+> use rushiDB1
+switched to db rushiDB1
+> show collections
+userInfo
+> db.userInfo.drop()
+true
+> show collections
