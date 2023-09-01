@@ -131,3 +131,8 @@ WriteResult({ "nRemoved" : 1 })
         "user_state" : "Maharashtra",
         "user_pincode" : "420132"
 }
+db.userInfo.find({"user_firstname":"Pratik"},{"user_email":1}).pretty()
+{
+        "_id" : ObjectId("64f165f5be6bcd9a4e320a8b"),
+        "user_email" : "pratikumb@gmail.com"
+}
