@@ -153,3 +153,41 @@ db.userInfo.find({"user_firstname":"Pratik"}).pretty()
         "user_state" : "Maharashtra",
         "user_pincode" : 400123
 }
+> db.property.insertOne({
+...     "building_name": "Independent House",
+...     "building_number": "123",
+...     "property_streetname": "Main Street",
+...     "property_city": "Bangalore",
+...     "property_state": "Mysore",
+...     "property_type": "Independent House",
+...     "property_bhk_type": "2 BHK",
+...     "property_furnishing": "Semi",
+...     "property_parking": "No",
+...     "property_description": "This 550 sqft. home is on the 2nd floor & comes with ample parking lot for a bike. With premium amenities such as servant room this home provides you with many added benefits. As Cinpolis Royal Meenakshi Mall, Galaxy Paradise & Cinema Bhoomi are in close proximity to this house, you can catch the latest movies at any time. Never miss out on lifestyle as Paval Soft, Village Hypermarket and Max Fashion are so close by. Being situated near Apollo Hospitals Bannerghatta, Fortis Hospital and Jayashree Multi Speciality Hospital, emergency care is very easily available at any time. With Hello Kids, Mitra Academy and Kidzee Arekere close to this home, you'll be able to provide your children with many options to choose from.",
+...     "property_rent_price": 15000,
+...     "property_availability": "Yes",
+...     "property_security_deposit": 30000,
+...     "property_coordinates": {
+...         "latitude": "12.3456789",
+...         "longitude": "98.7654321",
+...     },
+...     "landlord_id": "landlord@example.com",
+...     "images": [
+...         "image1.jpg",
+...         "image2.jpg",
+...         "image3.jpg"
+...     ],
+...     "videos": [
+...         "video1.mp4",
+...         "video2.mp4"
+...     ],
+...     "preferred_tenants": [
+...         "Family",
+...         "Working professionals",
+...         "Any"
+...     ],
+... })
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("64f6c11999ce71c43d542802")
+}
