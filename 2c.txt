@@ -216,3 +216,20 @@ db.rating.find({"rating":{$nin:[1,2]}},{"review":1,_id:0}).pretty()
 {
         "review" : " They were attentive to our house rules, maintained excellent communication, and left our Airbnb in superb condition. We highly recommend them to other hosts."
 }
+
+//eq
+db.rating.find({"rating":{$eq:1}},{"review":1,_id:0}).pretty()
+{ "review" : "Not well experience." }
+
+//ne
+> db.rating.find({"rating":{$ne:1}},{"review":1,_id:0}).pretty()
+{ "review" : "Great experience! The property was clean and well-maintained." }
+{
+        "review" : " explained everything in a way that was easy to understand from the making the offer, to working with the mortgage banker and the coop board. This made it really easy to move into (CN) in less than 3 month."
+}
+{
+        "review" : " They were attentive to our house rules, maintained excellent communication, and left our Airbnb in superb condition. We highly recommend them to other hosts."
+}
+
+
+
