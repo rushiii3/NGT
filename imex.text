@@ -19,3 +19,8 @@ mongoexport --host localhost --db rushiDB1 --collection rating --type json --out
 C:\Program Files\MongoDB\Server\3.6\bin>mongoexport --host localhost --db rushiDB1 --collection rating --type csv --fields review,rating  --out C:\rushi\reviws.csv
 2023-09-15T09:01:54.999+0530    connected to: localhost
 2023-09-15T09:01:55.000+0530    exported 4 records
+
+
+C:\Program Files\MongoDB\Server\3.6\bin>mongoimport --host localhost --db rushiDB1 --collection airtravel --type csv --file C:\rushi\airtravel.csv --headerline
+2023-09-15T09:22:06.628+0530    connected to: localhost
+2023-09-15T09:22:06.869+0530    imported 12 documents
