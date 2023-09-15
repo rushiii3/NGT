@@ -16,3 +16,6 @@ mongoexport --host localhost --db rushiDB1 --collection rating --type json --out
 2023-09-15T08:47:46.055+0530    connected to: localhost
 2023-09-15T08:47:46.057+0530    exported 4 records
 
+C:\Program Files\MongoDB\Server\3.6\bin>mongoexport --host localhost --db rushiDB1 --collection rating --type csv --fields review,rating  --out C:\rushi\reviws.csv
+2023-09-15T09:01:54.999+0530    connected to: localhost
+2023-09-15T09:01:55.000+0530    exported 4 records
