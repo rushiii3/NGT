@@ -12,4 +12,7 @@ C:\Program Files\MongoDB\Server\3.6\bin>mongoexport --host localhost --db rushiD
 {"_id":{"$oid":"64fa90b7a938b561d544a90e"},"review":"Not well experience.","rating":1.0,"user_id":{"$oid":"64f165f5be6bcd9a4e320a8a"},"property_id":{"$oid":"64f6c07199ce71c43d542801"}}
 2023-09-15T08:39:17.323+0530    exported 4 records
 
+mongoexport --host localhost --db rushiDB1 --collection rating --type json --out C:\rushi\reviws.json
+2023-09-15T08:47:46.055+0530    connected to: localhost
+2023-09-15T08:47:46.057+0530    exported 4 records
 
