@@ -1,0 +1,15 @@
+C:\Users\NGT>cd C:\Program Files\MongoDB\Server\3.6\bin
+
+C:\Program Files\MongoDB\Server\3.6\bin> mongoimport --host localhost --db rushiDB1 --collection userSocial --type json --file C:\rushi\user.json --jsonArray
+2023-09-15T08:35:17.719+0530    connected to: localhost
+2023-09-15T08:35:17.722+0530    imported 9 documents
+
+C:\Program Files\MongoDB\Server\3.6\bin>mongoexport --host localhost --db rushiDB1 --collection rating --type json
+2023-09-15T08:39:17.320+0530    connected to: localhost
+{"_id":{"$oid":"64fa8cc6a938b561d544a90b"},"review":"Great experience! The property was clean and well-maintained.","rating":4.0,"user_id":{"$oid":"64f165f5be6bcd9a4e320a8a"},"property_id":{"$oid":"64f6c07199ce71c43d542801"}}
+{"_id":{"$oid":"64fa90b7a938b561d544a90c"},"review":" explained everything in a way that was easy to understand from the making the offer, to working with the mortgage banker and the coop board. This made it really easy to move into (CN) in less than 3 month.","rating":3.0,"user_id":{"$oid":"64f6c07199ce71c43d542801"},"property_id":{"$oid":"64f6c07199ce71c43d542802"}}
+{"_id":{"$oid":"64fa90b7a938b561d544a90d"},"review":" They were attentive to our house rules, maintained excellent communication, and left our Airbnb in superb condition. We highly recommend them to other hosts.","rating":4.0,"user_id":{"$oid":"64f6c07199ce71c43d542803"},"property_id":{"$oid":"64f6c07199ce71c43d542805"}}
+{"_id":{"$oid":"64fa90b7a938b561d544a90e"},"review":"Not well experience.","rating":1.0,"user_id":{"$oid":"64f165f5be6bcd9a4e320a8a"},"property_id":{"$oid":"64f6c07199ce71c43d542801"}}
+2023-09-15T08:39:17.323+0530    exported 4 records
+
+
