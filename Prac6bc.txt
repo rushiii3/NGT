@@ -1,0 +1,16 @@
+C:\Program Files\MongoDB\Tools\100\bin>mongodump --uri="mongodb://localhost:27017" -o "%USERPROFILE%\Dump"
+2023-10-04T20:58:47.066+0530    writing admin.system.version to C:\Users\hrushishinde\Dump\admin\system.version.bson
+2023-10-04T20:58:47.077+0530    done dumping admin.system.version (1 document)
+2023-10-04T20:58:47.085+0530    writing RushiDB1.user to C:\Users\hrushishinde\Dump\RushiDB1\user.bson
+2023-10-04T20:58:47.086+0530    done dumping RushiDB1.user (1 document)
+
+
+
+
+C:\Program Files\MongoDB\Tools\100\bin>mongorestore --uri="mongodb://localhost:27017" "C:\Users\hrushishinde\Dump"
+2023-10-04T21:03:09.556+0530    preparing collections to restore from
+2023-10-04T21:03:09.566+0530    reading metadata for RushiDB1.user from C:\Users\hrushishinde\Dump\RushiDB1\user.metadata.json
+2023-10-04T21:03:09.635+0530    restoring RushiDB1.user from C:\Users\hrushishinde\Dump\RushiDB1\user.bson
+2023-10-04T21:03:09.664+0530    finished restoring RushiDB1.user (1 document, 0 failures)
+2023-10-04T21:03:09.665+0530    no indexes to restore for collection RushiDB1.user
+2023-10-04T21:03:09.667+0530    1 document(s) restored successfully. 0 document(s) failed to restore.
