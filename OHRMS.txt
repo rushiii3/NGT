@@ -278,3 +278,4 @@ The ATM & bus station are close by, you will find having money in hand & access 
   "admin_email": "admin@gmail.com"
 }
   )
+email : v26958302@gmail.com
