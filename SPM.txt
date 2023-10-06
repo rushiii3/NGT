@@ -48,5 +48,10 @@ Short note on scheduling and sequencing
 
 Forward pass and backward pass method with example
 Short note on constructing precedence 
+Explain network modelling
+Explain activity on arrow and activity on node 
+Define the terms, path, free float, interfering float, hammock activities
 
-
+Chp4 All models
+compare models
+Lean software 
