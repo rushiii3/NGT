@@ -34,3 +34,42 @@ C:\Program Files\MongoDB\Server\3.6\bin>mongodump --host localhost --db rushiDB1
 2023-10-06T08:56:24.357+0530    done dumping rushiDB1.maintenace_req (1 document)
 2023-10-06T08:56:25.496+0530    done dumping rushiDB1.rating (4 documents)
 2023-10-06T08:56:25.517+0530    done dumping rushiDB1.mrp (5 documents)
+
+
+
+C:\Program Files\MongoDB\Server\3.6\bin>mongorestore --host localhost --db rushiDB4 "C:\rushi\rushiDB1"
+2023-10-06T08:59:32.752+0530    the --db and --collection args should only be used when restoring from a BSON file. Other uses are deprecated and will not exist in the future; use --nsInclude instead
+2023-10-06T08:59:32.762+0530    building a list of collections to restore from C:\rushi\rushiDB1 dir
+2023-10-06T08:59:32.781+0530    reading metadata for rushiDB4.userSocial from C:\rushi\rushiDB1\userSocial.metadata.json
+2023-10-06T08:59:32.796+0530    restoring rushiDB4.userSocial from C:\rushi\rushiDB1\userSocial.bson
+2023-10-06T08:59:32.805+0530    no indexes to restore
+2023-10-06T08:59:32.806+0530    finished restoring rushiDB4.userSocial (9 documents)
+2023-10-06T08:59:33.804+0530    reading metadata for rushiDB4.property from C:\rushi\rushiDB1\property.metadata.json
+2023-10-06T08:59:33.806+0530    reading metadata for rushiDB4.userInfo from C:\rushi\rushiDB1\userInfo.metadata.json
+2023-10-06T08:59:33.817+0530    reading metadata for rushiDB4.rating from C:\rushi\rushiDB1\rating.metadata.json
+2023-10-06T08:59:33.824+0530    reading metadata for rushiDB4.airtravel from C:\rushi\rushiDB1\airtravel.metadata.json
+2023-10-06T08:59:33.831+0530    restoring rushiDB4.property from C:\rushi\rushiDB1\property.bson
+2023-10-06T08:59:33.841+0530    no indexes to restore
+2023-10-06T08:59:33.841+0530    finished restoring rushiDB4.property (2 documents)
+2023-10-06T08:59:33.841+0530    reading metadata for rushiDB4.mrp from C:\rushi\rushiDB1\mrp.metadata.json
+2023-10-06T08:59:33.844+0530    restoring rushiDB4.userInfo from C:\rushi\rushiDB1\userInfo.bson
+2023-10-06T08:59:33.886+0530    restoring rushiDB4.mrp from C:\rushi\rushiDB1\mrp.bson
+2023-10-06T08:59:33.920+0530    no indexes to restore
+2023-10-06T08:59:33.923+0530    finished restoring rushiDB4.userInfo (3 documents)
+2023-10-06T08:59:33.924+0530    reading metadata for rushiDB4.maintenace_req from C:\rushi\rushiDB1\maintenace_req.metadata.json
+2023-10-06T08:59:33.925+0530    no indexes to restore
+2023-10-06T08:59:33.929+0530    finished restoring rushiDB4.mrp (5 documents)
+2023-10-06T08:59:33.934+0530    reading metadata for rushiDB4.messaging from C:\rushi\rushiDB1\messaging.metadata.json
+2023-10-06T08:59:33.937+0530    restoring rushiDB4.maintenace_req from C:\rushi\rushiDB1\maintenace_req.bson
+2023-10-06T08:59:33.979+0530    restoring rushiDB4.messaging from C:\rushi\rushiDB1\messaging.bson
+2023-10-06T08:59:33.984+0530    no indexes to restore
+2023-10-06T08:59:33.985+0530    finished restoring rushiDB4.maintenace_req (1 document)
+2023-10-06T08:59:33.986+0530    no indexes to restore
+2023-10-06T08:59:33.987+0530    finished restoring rushiDB4.messaging (1 document)
+2023-10-06T08:59:35.064+0530    restoring rushiDB4.rating from C:\rushi\rushiDB1\rating.bson
+2023-10-06T08:59:35.081+0530    restoring rushiDB4.airtravel from C:\rushi\rushiDB1\airtravel.bson
+2023-10-06T08:59:35.086+0530    no indexes to restore
+2023-10-06T08:59:35.087+0530    finished restoring rushiDB4.rating (4 documents)
+2023-10-06T08:59:35.095+0530    no indexes to restore
+2023-10-06T08:59:35.096+0530    finished restoring rushiDB4.airtravel (12 documents)
+2023-10-06T08:59:35.104+0530    done
