@@ -1,0 +1,52 @@
+12. 
+13 . short note on stress management in software development environment?
+14. How to select a right person for the job
+15. Short note on managing people in software environment 
+16. How stress is caused in sdf
+17. What are the responsibility to make safety ?
+18.  Short note on organisation behavour
+Chp 10
+19. What is a contract and types of contract
+20. Short note on terms of contract?
+21. Quality models any one?
+22. Explain project control life cycle creating framework for monitoring control?
+23. Categories of reporting
+24.  Explain the 
+25. Short note on review
+26. What is review and explain the utility of review?
+27. Cost monitoring 
+28. Define the terms schedule variance time variance, cost variance 
+29. How to visualise the progress in project explain
+30. What are the various techniques for visualising progress?
+
+Short note on software configuration
+
+
+What are the various types of resources 
+Explain 7 categories of resources 
+Write a short note on cost schedule 
+Short note on resource allocation
+
+
+Chp7
+Various risk management approaches 
+Short note on risk identification 
+What is risk and what are the various categories of risk
+Short note on planning
+Various risk assessment 
+Risk management 
+Explain the gohems top 10 risk and counter measures?
+
+Explain risk planning & control i detail
+
+Chp6
+What are the objective of activity 
+Give the impo
+Short note on project schedule
+Short note on activity based approach, Product based approach, Hybrid approach 
+Short note on scheduling and sequencing
+
+Forward pass and backward pass method with example
+Short note on constructing precedence 
+
+
