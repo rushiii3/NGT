@@ -14,3 +14,23 @@ C:\Program Files\MongoDB\Tools\100\bin>mongorestore --uri="mongodb://localhost:2
 2023-10-04T21:03:09.664+0530    finished restoring RushiDB1.user (1 document, 0 failures)
 2023-10-04T21:03:09.665+0530    no indexes to restore for collection RushiDB1.user
 2023-10-04T21:03:09.667+0530    1 document(s) restored successfully. 0 document(s) failed to restore.
+
+
+
+C:\Program Files\MongoDB\Server\3.6\bin>mongodump --host localhost --db rushiDB1 --out "C:\rushi"
+2023-10-06T08:56:24.276+0530    writing rushiDB1.airtravel to
+2023-10-06T08:56:24.280+0530    writing rushiDB1.userSocial to
+2023-10-06T08:56:24.280+0530    writing rushiDB1.mrp to
+2023-10-06T08:56:24.281+0530    writing rushiDB1.rating to
+2023-10-06T08:56:24.305+0530    done dumping rushiDB1.airtravel (12 documents)
+2023-10-06T08:56:24.313+0530    writing rushiDB1.userInfo to
+2023-10-06T08:56:24.314+0530    done dumping rushiDB1.userSocial (9 documents)
+2023-10-06T08:56:24.314+0530    writing rushiDB1.property to
+2023-10-06T08:56:24.331+0530    done dumping rushiDB1.property (2 documents)
+2023-10-06T08:56:24.332+0530    writing rushiDB1.messaging to
+2023-10-06T08:56:24.336+0530    done dumping rushiDB1.userInfo (3 documents)
+2023-10-06T08:56:24.336+0530    writing rushiDB1.maintenace_req to
+2023-10-06T08:56:24.343+0530    done dumping rushiDB1.messaging (1 document)
+2023-10-06T08:56:24.357+0530    done dumping rushiDB1.maintenace_req (1 document)
+2023-10-06T08:56:25.496+0530    done dumping rushiDB1.rating (4 documents)
+2023-10-06T08:56:25.517+0530    done dumping rushiDB1.mrp (5 documents)
